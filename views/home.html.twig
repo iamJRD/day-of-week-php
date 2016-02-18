@@ -3,24 +3,24 @@
   <head>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
       <link rel="stylesheet" href="css/styles.css">
-      <title>Scrabble Score</title>
+      <title>Find the Day of the Week</title>
   </head>
 
   <body>
     <div class='container'>
       <div class='jumbotron'>
-        <h1>Scrabble Score</h1>
-        <p><em>Find the Scrabble score of any word!</em></p>
+        <h1>Find the Day of the Week</h1>
+        <p><em>Find the day of the week of any date!</em></p>
       </div>  <!-- /JUMBOTRON -->
 
   <!-- Row: 1 -->
       <div class='row'>
         <div class='col-sm-6'>
-          <h2>Enter a word, brah!</h2>
+          <h2>Enter a date</h2>
           <form action='/results' method='post'>
             <div class='form-group'>
-              <label for='input_word'>Word:</label>
-              <input id='input_word' name='input_word' type='text'>
+              <label for='input_date'>Date:</label>
+              <input id='input_date' name='input_date' type='date'>
             </div>
             <button class='btn btn-warning' type='submit'>Submit!</button>
           </form>
@@ -32,7 +32,7 @@
       <div class="row">
           <div class="col-sm-6">
 
-            <h1>Your Scrabble score is:</h1>
+            <h1>The day of the week is:</h1>
             <h4>{{ result }}</h4>
 
 
