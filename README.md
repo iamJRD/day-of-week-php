@@ -1,33 +1,41 @@
-# PHP Start up folders - DOWNLOAD ZIP, do not clone
+# Day of Week Finder
 
-#### _Enter amount user is willing to spend, to see list of cars user can buy, 2/7/2016_
+#### By: Jared Beckler | Epicodus | March 2016
 
-#### By _** Ronando **_
+This project was used to get familiar with PHP/Silex/Twig/PHPUnit and will take a user inputted date and give them the day of the week that the date falls on.
 
-## Description
+## Prerequisites
 
-_Dealership app will accept user input for dollar amount willing to spend. App spits out car objects priced below what user input is._
+You will need the following things properly installed on your computer.
 
-## Setup/Installation Requirements
+* [MAMP](https://www.mamp.info/en/downloads/)
 
-* _run $ composer install in terminal in web folder once you have cloned the repository. But don't clone, download zip._
-* _Silex is a dependency of the project. _
+## Installation
+
+* `git clone https://github.com/jaredbeckler/day-of-week-php` this repository
+* Change into the new directory
+
+## Running / Development
+
+* Run `composer install` in the project's home directory
+* Start MAMP
+* In your web browser, go to `localhost:8889` to view the app
 
 ## Known Bugs
 
-_{Currently does not error handle. Inputted text will break it.}_
+There are currently no known bugs.
 
 ## Support and contact details
 
-_{No support available.}_
+If you have any issues, questions, ideas, or concerns contact me through GitHub. If you would like to make a contribution to the code, feel free to do so and notify me by e-mail.
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _PHP_
-* _Blood, sweat, tears_
+* HTML
+* CSS
+* PHP
+* mySQL
 
 ### License
 
-*No license.*
+Copyright &copy; 2016  |  Jared Beckler  |  Epicodus  |  Portland, OR
